@@ -6,11 +6,10 @@ A line following robot car with Raspberry pi board. This project involved a real
 * Object Detection - Two Infra-Red sensors placed on the two sides front of the car  detect object at a short-range.
 * Control - Drives the robot if  the  black  line is detected. Robots finds the black line if it losses it. Robot stops if an object is detected within a specified range.
 
-### A Solidity contract was deployed to the blockchain.
-The contract holds ETH from both buyer and seller in escrow.
-Constructor takes seller’s address, expected seller amount, and a timeout in seconds. <br>
-![SwapChain](shots/Capture.PNG) <br><br>
-
+## Tool Stack
+* The C Programming Language - The software development was implemented  using C.
+* Linux OS - Linux was the base operating system for real-time design.
+* 
 
 ### Frontend (React) Wallet Integration
 Built with React and Ethers.js v6.
