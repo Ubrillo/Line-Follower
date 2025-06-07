@@ -9,21 +9,3 @@ A line following robot car with Raspberry pi board. This project involved a real
 ## Tool Stack
 * The C Programming Language - The software development was implemented  using C.
 * Linux OS - Linux was the base operating system for real-time design.
-* 
-
-### Frontend (React) Wallet Integration
-Built with React and Ethers.js v6.
-Connects to MetaMask using BrowserProvider and sets up a signer.
-Displays connected wallet address.
-Deposit Flow – Buyer & Seller
-Buyer deploys the contract and deposits ETH to it.
-Seller uses the UI  to send a matching deposit using sellerDeposit().
-![SwapChain](shots/Capture1.PNG)
-
-### Condition Check and Swap
-The contract checks if both parties have deposited the expected amounts.
-If true, ETH is distributed accordingly.
-Timeout Refund Logic
-If the seller doesn’t deposit in time, the buyer can trigger timeoutRefund() to retrieve their funds.<br>
-![SwapChain](shots/Capture4.PNG)
-
